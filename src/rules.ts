@@ -8,6 +8,7 @@ export const progressiveRule = rule('Progressive').manipulators([
     o: 'i',
     p: 'o',
     open_bracket: 'p',
+    close_bracket: 'open_bracket',
     // Second row
     j: 'h',
     k: 'j',
